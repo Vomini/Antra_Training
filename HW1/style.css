@@ -1,0 +1,95 @@
+/* Center align the heading */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#heading {
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+}
+
+/* Form styling */
+#main-form {
+    padding: 10px;
+    text-align: center;
+}
+
+/* General input styling */
+.first, .first2 {
+    height: 30px;
+    font-size: medium;
+    margin: 7px;
+}
+
+/* Specific widths for input fields */
+.first {
+    width: 250px;
+}
+
+.first2 {
+    width: 527px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 15px;
+
+}
+
+.container label {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.container span {
+    margin-left: 25px;
+    text-align: center;
+    max-width: 450px;
+    text-align: left;
+    white-space: normal;
+    display: block;
+}
+
+.container span a {
+    text-decoration: none;
+    color: #568ac5;
+}
+
+.highlight {
+    color: #0066cc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 255px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.register {
+    background-color: #0066cc;
+    color: white;
+}
+
+#signin {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.regBtn {
+    background: #5589c5;
+    color: white;
+    border-radius: 3px;
+    padding: 2px 5px;
+    font-size: 13px;
+}
